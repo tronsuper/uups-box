@@ -1,0 +1,28 @@
+{
+  "name": "uups-box",
+  "version": "1.0.0",
+  "description": "A TronBox box for OpenZeppelin UUPS proxy pattern with upgradeable smart contracts",
+  "scripts": {
+    "compile": "tronbox compile",
+    "migrate": "tronbox migrate",
+    "test": "tronbox test"
+  },
+  "keywords": [
+    "tronbox",
+    "tronbox-box",
+    "tron",
+    "smart-contracts",
+    "solidity",
+    "openzeppelin",
+    "upgradeable",
+    "uups",
+    "proxy",
+    "blockchain"
+  ],
+  "author": "tronbox@tron.network",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "@openzeppelin/truffle-upgrades": "^1.17.1"
+  }
+}
